@@ -5,8 +5,8 @@ arr = []
 print "请输入数字 N，然后按 Enter: "
 n = gets
 
-i = 1
- for i in 0...n.to_i 
+
+ for i in 0...n.to_i
    arr << i * i
  end
 
