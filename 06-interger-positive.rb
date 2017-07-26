@@ -11,6 +11,7 @@ elsif x.to_i == 0
  "零"
 else
  "负数"
+ end
 
  b =
  if x.to_i % 2 == 0

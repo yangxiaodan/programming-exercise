@@ -17,6 +17,11 @@ y = gets
 print "请输入一个整数z，然后按 Enter: "
 z = gets
 
+a =
+if x < 0
+  "A"
+  
+
 # ....
 
 puts "结果是________(A或B或C或D或E)"

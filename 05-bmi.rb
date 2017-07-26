@@ -7,19 +7,19 @@
 print "请输入您的体重(公斤)，然后按 Enter: "
 weight = gets
 
-print "请输入您的身高(厘米)，然后按 Enter: "
+print "请输入您的身高(米)，然后按 Enter: "
 height = gets
 
-bmi =  weight.to_f / (height.to_f * height.to_f).round
-result =
-if bmi < 18.5
-  "过轻"
- elsif bmi>= 24
-  "过重"
+bmi = weight.to_f / (height.to_f * height.to_f)
+ if bmi < 18.5
+   a = "过轻"
+ elsif bmi >= 24
+   a = "过重"
  else
-   "正常"
+   a = "正常"
+ end
 # .....
 
-puts "您的 BMI 是: #{ bmi }"
+puts "您的 BMI 是: #{bmi}"
 
-puts "您的 BMI 结果是: #{result}
+puts "您的 BMI 结果是: #{a}"
