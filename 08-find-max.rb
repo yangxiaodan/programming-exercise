@@ -9,6 +9,20 @@ y = gets
 print "请输入一个数字z，然后按 Enter: "
 z = gets
 
+x = x.to_i
+y = y.to_i
+z = z.to_i
+
+a =
+if x > y && x > z
+  "x"
+elsif y > x && y > z
+  "y"
+elsif z > y && z > x
+  "z"
+end
+
+
 # ....
 
-puts "最大的数是 ________(x或y或z)"
+puts "最大的数是#{a}"
